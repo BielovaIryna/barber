@@ -19,7 +19,7 @@
 	--main-font-weight: 700;
 	--secondary-font-weight:600;
 	--line-height:1.22;
-	--header-font-size:36px;
+	--header-font-size:26px;
 	--section-title-font-size:96px;
 	--secondary-title-font-size:64px;
 	--form-font-size:36px;
@@ -32,23 +32,23 @@ body{
 	line-height: var(--line-height);
 }
 
-@media screen and (min-width:428px) {
+/* @media screen and (min-width:428px) {
 	.container{
 		width:428px;
 	}
-}
-@media screen and (min-width: 768px) {
+} */
+/* @media screen and (min-width: 768px) {
 	.container{
 		width: 768px;
 	}
-}
-@media screen and (min-width: 1128px) {
+} */
+/* @media screen and (min-width: 1128px) {
 	.container{
 		width: 1128px;
 	}
-}
-@media screen and (max-width: 767px) {
+} */
+/* @media screen and (max-width: 767px) {
 	
-}
+} */
 
 
