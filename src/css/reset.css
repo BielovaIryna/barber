@@ -13,7 +13,7 @@ p:last-child {
   margin-bottom: 0;
 }
 
-ul {
+ul, ol {
   margin: 0;
   padding: 0;
   list-style: none;
@@ -26,10 +26,20 @@ a {
 
 button {
   cursor: pointer;
+  border: none;
 }
 
 img {
   display: block;
   max-width: 100%;
   height: auto;
+}
+.list {
+	list-style: none;
+}
+.link {
+	text-decoration: none;
+}
+address {
+	font-style: normal;
 }
