@@ -1,6 +1,9 @@
 .top{
 	background-color: var(--dark-color);
 	padding-right: 16px;
+	position: fixed;
+	z-index: 100;
+	width:100%
 }
 .top-container{
 	color: var(--light-font-color);
@@ -35,10 +38,9 @@
 	}
 	
 }
+
 @media screen and (max-width: 768px) {
-	.top{
-		display: raletive;
-	}
+	
 	.main-navigation{
 		display: none;
 	}
