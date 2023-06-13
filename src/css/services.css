@@ -127,6 +127,9 @@
 	.services-right-side-img{
 		margin-bottom: 26px;
 	}
+	.services-list{
+		padding: calc(129px + 26px) 25px 25px 25px;
+	}
 }
 @media screen and (min-width:1128px) {
 	.servises-container{
@@ -136,7 +139,7 @@
 		width: calc((100% - 26px) / 2)
 	}
 	.services-list{
-		padding: calc(129px + 26px) 20px 20px 20px;
+		padding: calc(129px + 26px) 30px 30px 30px;
 	}
 }
 @media screen and (max-width:767px) {
